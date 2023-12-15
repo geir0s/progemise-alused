@@ -8,13 +8,13 @@ function checkTemp() {
 
     if (temp < 20) {
         console.log("liiga_külm");
-        return "liiga_külm"; // Tagastab string value
+        return liiga_külm; // Tagastab string value
     } else if (temp >= 20 && temp <= 40) {
         console.log("paras_temperatuur");
-        return "paras_temperatuur"; // Tagastab string value
+        return paras_temperatuur; // Tagastab string value
     } else if (temp > 40 && temp <= 60) {
         console.log("liiga_kuum");
-        return "liiga_kuum"; // Tagastab string value
+        return liiga_kuum; // Tagastab string value
     } else {
         console.log("Invalid temperature");
         return "Invalid temperature"; // Error kui temp out of range
