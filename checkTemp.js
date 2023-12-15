@@ -22,4 +22,4 @@ function checkTemp() {
 }
 
 let result = checkTemp();
-console.log(result); // Results
+
