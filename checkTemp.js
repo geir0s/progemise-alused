@@ -11,7 +11,7 @@ function checkTemp() {
         console.log(paras_temperatuur)
     } 
     else if (temp > 40 && temp <= 60) {
-        console.log(paras_temperatuur)
+        console.log(liiga_kuum)
     }
     
 }
